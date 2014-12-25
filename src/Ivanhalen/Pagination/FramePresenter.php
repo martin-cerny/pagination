@@ -48,9 +48,7 @@ class FramePresenter extends EdgePresenter {
         $last = $this->getLast(Config::get('pagination::frame.last_link_text'));
 
         // Build the whole pagination
-        return Config::get('pagination::show_first_last')
-            ? $first . $prev . $content . $next . $last
-            : $prev . $content . $next;
+        return $first . $content . $last
     }
 
 } 
