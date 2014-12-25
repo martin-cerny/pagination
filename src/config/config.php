@@ -7,7 +7,7 @@ return array(
 
     // frame pagination options
     'frame' => array(
-        'links' => 5, // max links per page
+        'links' => 3, // max links per page
         'prev_link_text' => '&lsaquo;', // text of prev link
         'next_link_text' => '&rsaquo;', // text of next link
         'first_link_text' => '&laquo;', // text of first link
