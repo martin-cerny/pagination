@@ -1,5 +1,5 @@
 {
-    "name": "ivanhalen/pagination",
+    "name": "black/pagination",
     "description": "An alternative Laravel pagination",
     "keywords": ["laravel","pagination"],
     "license": "MIT",
